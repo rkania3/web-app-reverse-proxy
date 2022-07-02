@@ -1,0 +1,23 @@
+{
+  "name": "web-app-reverse-proxy",
+  "version": "1.0.0",
+  "description": "Node web app that routes requests to other backend projects for demo purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkania3/web-app-reverse-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkania3/web-app-reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/rkania3/web-app-reverse-proxy#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
