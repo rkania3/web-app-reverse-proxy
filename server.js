@@ -6,11 +6,15 @@ const routes = require('./project/routes/index')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Hello world from a Node.js app!')
+    res.sendFile('/project/portfolio.html', { root: '.' })
 })
 
 app.get('/resume', (req, res) => {
-    res.sendFile('/project/resume/index.html', { root: '.' })
+    res.sendFile('/project/resume.html', { root: '.' })
+})
+
+app.get('/test', (req, res) => {
+    res.sendFile('/project/portfolio.html', { root: '.' })
 })
 
 app.listen(3000, () => {
